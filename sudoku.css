@@ -1,0 +1,27 @@
+.sudoku {
+	border-collapse: collapse;
+}
+.sudoku input {
+	width: 2em;
+	border: 0;
+	text-align: center;
+	background: transparent;
+}
+.sudoku td.problem {
+	background: red;
+}
+.sudoku td {
+	width: 2em;
+	height: 2em;
+	border: 1px solid black;
+	padding: 0; margin: 0;
+}
+.sudoku tr.sudokurow3 td, .sudoku tr.sudokurow6 td {
+	border-bottom: 2px solid black;
+}
+.sudoku td.sudokucolumn3, .sudoku td.sudokucolumn6 {
+	border-right: 2px solid black;
+}
+.sudoku div.notes {
+	
+}
